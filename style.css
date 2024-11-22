@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header Styles */
@@ -106,6 +107,7 @@
   0%, 100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-10px);
   }
@@ -194,21 +196,286 @@
   color: inherit;
 }
 
+/* Commercial page css ----------------------------------*/
+
+.com-services{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  padding-top: 170px;
+  margin: 0 10px;
+}
+
+.com-box{
+  width: 50%;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+}
+.rating-main{
+  width: 95%;
+  height: 150px;
+  background-color: #7a7a7a;
+  border-radius: 75px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.rating-img{
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  padding: 35px 30px;
+}
+
+.rating-text{
+  width: 250px;
+}
+.rating-text img{
+  width: 100%;
+  width: 200px;
+}
+
+.rating-text p{
+ color: white ;
+ font-size: 20px;
+ font-family: Arial, sans-serif;
+ margin: 0;
+}
+
+.spinning-img{
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.spinning-img img{
+  width: 60px;
+  height: 60px;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+
+.rating-content{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.rating-content h2{
+  color: #000000;
+  font-family: "Arial", Sans-serif;
+  font-size: 42px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 49px;
+}
+
+.rating-content p{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Arial, sans-serif;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.rating-btns{
+  margin: 50px 0;
+  display: flex;
+  justify-content:space-evenly;
+}
+.btn-square {
+  background-color: #A3D400;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-square:hover{
+  color: #fff;
+  background-color: black;
+  text-decoration: underline;
+
+}
+
+.d-color{
+  color: #659c08;
+}
+
+.book-consult{
+  margin: 30px 0;
+  padding:  50px 10px;
+  background-color: #f6f7f9;
+}
+
+.book-consult h2{
+  font-size: 2.5rem;
+  padding: 40px 0;
+}
+
+.frm input{
+  width: 275px;
+  height: 45px;
+  border-radius: 25px;
+  border: 0.5px solid;
+  padding: 15px;
+}
+
+.frm input:focus{
+  background-color: #e5fcf9;
+  outline: none;
+}
+
+.y-choose-steira{
+  margin: 70px 10px;
+}
+
+.y-choose-steira h2{
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.reason{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.reason-box{
+  width: 350px;
+  height: 80px;
+  border: 0.5px solid;
+  border-radius: 20px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  cursor: pointer;
+}
+.reason-box:hover{
+  border-color:#659c08;
+}
+
+.reason-box p{
+  font-size: 20px;
+  font-weight: 500;
+
+}
 
 
+.services h2{
+  text-align: center;
+  font-size: 4rem;
+}
+
+.service-box{
+  background-color: #ececec;
+  padding: 20px 20px;
+  display: flex;
+  gap: 30px;
+  border-radius: 30px;
+  margin:60px 0  ;
+}
+
+.s-img-box{
+  margin: 50px 50px;
+}
+
+.s-content-box h3{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.s-content-box p{
+  text-transform: capitalize;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.s-img-box img{
+  width: 400px;
+  height: 300px;
+}
+
+.faqs{
+  background-color: #f6f7f9;
+  padding: 60px 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.faq-accordion{
+  width: 60%;
+}
+.faq-accordion h1{
+  font-size: 2.5rem;
+  margin-bottom:30px ;
+}
+
+.faq-gotcall{
+  width: 40%;
+  margin-top: 65px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.faq-gotcall img{
+ margin-top: 20px;
+}
 
 
+.service-area{
+  padding: 40px 20px;
+  background-color: #cde99f;
+}
+.service-area-main{
+  display: flex;
+  gap: 40px;
+}
+.service-area p{
+  text-align:center;
+  
+}
+.service-area h3{
+  text-align:center;
+}
 
+.service-area-box{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap:20px
+}
 
-
-
-
-
-
-
-
-
-
+.service-area-box img{
+  width: 100%;
+}
+.service-d-areas{
+  width: 180px;
+  height: 40px;
+  border: 0.5px solid;
+  border-radius: 50px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.service-d-areas:hover{
+  background-color: #90d41b;
+}
 
 
 
