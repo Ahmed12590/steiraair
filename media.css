@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+    .header {
+        display: none; /* Hide desktop header */
+      }
+    
+      .mobile-header {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .mobile-top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      .mobile-logo img {
+        max-width: 80px;
+        height: auto;
+      }
+    
+      .mobile-menu-toggle {
+        font-size: 24px;
+        cursor: pointer;
+      }
+    
+      .mobile-nav-links {
+        display: none; /* Hide navigation by default */
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    
+      .mobile-nav-links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+    
+      .mobile-nav-links ul li {
+        margin: 10px 0;
+      }
+    
+      .mobile-nav-links ul li a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        padding: 10px;
+        display: block;
+      }
+    
+      .mobile-nav-links.active {
+        display: block; /* Show navigation when active */
+      }
+
+
+/* home page  */
+
+    .services-section {
+      /* flex-direction: column; Stack service cards vertically */
+      padding: 20px; /* Reduce padding for smaller screens */
+      gap: 20px;
+    }
+  
+    .service-card {
+      max-width: 90%; /* Reduce width on mobile */
+      margin: 0 auto; /* Center the cards */
+    }
+  
+    .overlay span {
+      font-size: 16px; /* Reduce font size for mobile */
+    }
+  }
+  

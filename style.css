@@ -6,10 +6,26 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+/* Hide mobile header by default */
+.mobile-header {
+  display: none;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+
 /* Header Styles */
 .header {
   font-family: Arial, sans-serif;
-  position: fixed; /* Make the header fixed */
+  /* position: fixed;  */
   top: 0; /* Stick to the top */
   left: 0;
   width: 100%; /* Make the header span full width */
@@ -135,7 +151,7 @@
 
 
 
-/* residintal page css  */
+/* home  page css  */
 
 .services-section {
   display: flex;
