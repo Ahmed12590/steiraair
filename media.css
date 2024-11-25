@@ -183,6 +183,9 @@
 .faq-gotcall {
   width: 100%;
 }
+.faqs {
+  display: block; /* Change to block layout for mobile */
+}
 
 .service-area {
   padding: 20px;
