@@ -494,6 +494,38 @@
 }
 
 
+/* contact us page------------------------------ */
+.contact-address{
+  padding-top: 200px;
+  margin: 0 50px;
+}
+
+.address{
+  display: flex;
+  margin: 40px 30px;
+}
+
+.address h2{
+  margin-left:20px;
+}
+
+.sub-addr{
+  margin-left: 60px;
+}
+
+.contact-form{
+  background-color: #f6f7f9;
+  padding: 50px 150px;
+}
+.contact-form h5{
+  color: #659c08;
+}
+
+.cont-form{
+  margin-top: 30px;
+}
+
+
 
 /* Footer Styles */
 .footer {
