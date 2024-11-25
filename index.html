@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="toggle.js">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
@@ -25,9 +26,19 @@
         <img src="images/logo.png" alt="Logo">
       </div>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Residential</a></li>
-        <li><a href="commercial.html">Commercial</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="residential.html">Residential <i class="fa fa-angle-down"></i></a>
+         <ul class="dropdown">
+            <li><a href="indoor-air-quality.html">Indoor Air Quality</a></li>
+            <li><a href="indoor-pressure-washing.html">Indoor Pressure Washing</a></li>
+          </ul>
+        </li>
+        <li><a href="commercial.html">Commercial <i class="fa fa-angle-down"></i></a>
+        <ul class="dropdown">
+            <li><a href="#">Option 1</a></li>
+            <li><a href="#">Option 2</a></li>
+          </ul>
+        </li>
         <li><a href="#">Blogs</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>

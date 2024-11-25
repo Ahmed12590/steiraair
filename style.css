@@ -87,17 +87,22 @@
   text-decoration: none;
   color: #000;
   font-weight: bold;
-  padding: 5px 10px;
+  /* padding: 5px 10px; */
+}
+
+.nav-bar ul li a:hover{
+  color: #659c08;
 }
 
 .nav-bar ul li .dropdown {
   display: none;
   position: absolute;
-  top: 30px;
+  top: 20px;
   left: 0;
   background-color: #fff;
   border: 1px solid #ddd;
   padding: 10px 0;
+  width: 180px;
 }
 
 .nav-bar ul li:hover .dropdown {
@@ -292,14 +297,14 @@
   font-size: 42px;
   font-weight: 500;
   text-transform: capitalize;
-  line-height: 49px;
+  line-height: 1.2;
 }
 
 .rating-content p{
   font-size: 18px;
   font-weight: 500;
   font-family: Arial, sans-serif;
-  line-height: 30px;
+  line-height: 1.7;
   text-transform: capitalize;
 }
 .rating-btns{
@@ -413,7 +418,7 @@
 }
 .s-content-box p{
   text-transform: capitalize;
-  line-height: 35px;
+  line-height: 1.7;
   font-weight: 400;
 }
 
@@ -526,8 +531,117 @@
 }
 
 
+/* residential
+indoor-air-quality page-------------- */
 
-/* Footer Styles */
+.indoor-air{
+margin: 20px 80px;
+}
+
+.indoor-air h2{
+  font-size: 2rem;
+}
+.indoor-air p{
+  line-height: 1.7;
+}
+
+.indoor-cont-center{
+  text-align: center;
+}
+
+.indoor-cont-center h2{
+  font-size: 2rem;
+  /* padding-bottom: 20px; */
+  margin: 20px 0;
+}
+.indoor-cont-center p{
+  line-height: 1.7;
+}
+
+.indoor-cont{
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+.indoor-cont-left{
+  width: 50%;
+}
+
+.indoor-cont-left h2{
+  margin-top: 20%;
+  margin-bottom: 20px;
+}
+/* .indoor-cont-left p{
+  line-height: 1.7;
+} */
+
+.indoor-cont-right{
+  width: 50%;
+}
+
+.indoor-cont-right img{
+  max-width: 550px;
+  height: 500px;
+}
+.indoor-cont-points{
+  margin: 50px 20px 0;
+}
+.indoor-cont-points h2{
+  margin-bottom: 20px;
+}
+
+.cont-banner{
+  text-align: center;
+  background-color: #61cf70;
+  padding: 30px 50px;
+}
+
+.cont-banner h2{
+  color: white;
+  margin: 20px 0;
+}
+
+.cont-banner p{
+  padding-bottom: 30px;
+}
+
+.indoor-boxx-main{
+  margin: 10% 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  text-align: center;
+}
+
+.indoor-boxx-main h2{
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+}
+
+.indoor-boxx-main p{
+  line-height: 1.7;
+}
+.indoor-boxx-uper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* gap: 15px; */
+}
+.indoor-box{
+  width: 30%;
+}
+
+.indoor-boxx-lower{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* gap: 45px; */
+}
+.indoor-box-low{
+  width: 48%;
+}
+
+/* Footer Styles-------------------- */
 .footer {
   background-color: #a2d400b9; /* Footer background color */
   color: #000000;

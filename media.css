@@ -74,5 +74,16 @@
     .overlay span {
       font-size: 16px; /* Reduce font size for mobile */
     }
+
+    /* commercial page */
+
+    .rating-main{
+      display: none;
+    }
+
+    .com-services{
+      display: flex;
+      flex-direction: column;
+    }
   }
   
