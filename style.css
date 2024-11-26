@@ -162,7 +162,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding: 170px;
+  padding: 100px;
   background-color: #f5f5f5;
 }
 
@@ -216,6 +216,196 @@
   text-decoration: none;
   color: inherit;
 }
+
+
+
+.about-section {
+  display: flex;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  flex-wrap: wrap; /* Makes it responsive */
+}
+
+.about-content {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+  font-family: 'Geometria', sans-serif;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.about-content strong {
+  font-weight: bold;
+  color: #000;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.image-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #98c21c; /* Green border */
+  border-radius: 8px;
+  z-index: -1;
+}
+
+
+/* Home Services Section */
+
+/* Home Services Section */
+.home-services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  background: url('images/bgimage.png') no-repeat center center fixed;
+  background-size: 110%; /* Increased size to make the image larger */
+  position: relative;
+  padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.home-services-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+
+.home-services-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch; /* Stretch items to the same height */
+  width: 80%;
+  position: relative;
+  z-index: 2;
+}
+
+/* Home Services Card */
+.home-services-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1; /* Ensure both cards stretch equally */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  border: solid;
+  border-width: 1px;
+  margin: 0 10px; /* Add spacing between the cards */
+}
+
+.home-services-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.home-services-card ul {
+  list-style: none;
+  padding: 0;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.home-services-card ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+
+.home-services-card ul {
+  list-style: none; /* Removes default bullets */
+  padding: 0;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.home-services-card ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+  position: relative; /* For positioning the custom bullet */
+  padding-left: 20px; /* Adds space for the bullet */
+}
+
+.home-services-card ul li::before {
+  content: ''; /* Adds a custom bullet */
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  background-color: #A3D400; /* Green color for the bullet */
+  border-radius: 50%; /* Makes the bullet circular */
+}
+  
+
+
+
+
+
+
 
 /* Commercial page css ----------------------------------*/
 
