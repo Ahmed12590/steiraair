@@ -99,7 +99,9 @@
 
 /* ///////////////////// commerical page csss//////////////////////////////////// */
 
-
+img, svg {
+  max-width: 364px;
+}
 
 .com-services {
   flex-direction: column; /* Stack the items vertically */
