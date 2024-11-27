@@ -103,6 +103,11 @@ img, svg {
   max-width: 364px;
 }
 
+iframe {
+  width: 90%;
+  height: auto;
+}
+
 .com-services {
   flex-direction: column; /* Stack the items vertically */
   padding-top: 100px;
