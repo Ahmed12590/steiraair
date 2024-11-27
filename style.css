@@ -103,6 +103,7 @@
   border: 1px solid #ddd;
   padding: 10px 0;
   width: 180px;
+  z-index: 100;
 }
 
 .nav-bar ul li:hover .dropdown {
@@ -591,7 +592,7 @@ padding-bottom: 100px;
 
 .service-box{
   background-color: #ececec;
-  padding: 20px 20px;
+  padding: 20px 50px;
   display: flex;
   gap: 30px;
   border-radius: 30px;
@@ -600,6 +601,9 @@ padding-bottom: 100px;
 
 .s-img-box{
   margin: 50px 50px;
+}
+.s-content-box{
+  margin-top: 50px;
 }
 
 .s-content-box h3{
@@ -722,7 +726,7 @@ padding-bottom: 100px;
 
 
 /* residential
-indoor-air-quality page-------------- */
+nested pages-------------- */
 
 .cont-header{
   height: 200px;
@@ -788,6 +792,7 @@ margin: 20px 80px;
   max-width: 500px;
   height: 300px;
   width: -webkit-fill-available;
+  /* width: 100%; */
 }
 .indoor-cont-points{
   margin: 50px 80px;
@@ -850,6 +855,7 @@ margin: 20px 80px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  padding: 30px 20px
   
 }
 
@@ -874,7 +880,13 @@ margin: 20px 80px;
   /* width:fit-content */
   width: 100%;
   height: 600px;
+}
 
+.h2-center{
+  text-align: center;
+  margin: 30px 0;
+  font-weight: bold;
+  font-size: 2.5rem !important;
 }
 
 /* Footer Styles-------------------- */
