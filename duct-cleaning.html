@@ -1,198 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Duct Cleaning</title>
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duct Cleaning</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="media.css">
-  <link rel="stylesheet" href="toggle.js">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-</head>
-<body>
-  <header class="header">
-    <div class="top-bar">
-      <div class="social-icon">
-        <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
-        <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
-        <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="toggle.js" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-bar">
+        <div class="social-icon">
+          <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p class="center-text">"Your Healthy Environment Specialist"</p>
       </div>
-      <p class="center-text">"Your Healthy Environment Specialist"</p>
+      <nav class="nav-bar">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="residential.html"
+              >Residential <i class="fa fa-angle-down"></i
+            ></a>
+            <ul class="dropdown">
+              <li><a href="indoor-air-quality.html">Indoor Air Quality</a></li>
+              <li>
+                <a href="indoor-pressure-washing.html"
+                  >Indoor Pressure Washing</a
+                >
+              </li>
+              <li>
+                <a href="air-pressure-testing.html">Air Pressure Testing</a>
+              </li>
+              <li><a href="duct-cleaning.html">Duct Cleaning</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="commercial.html"
+              >Commercial <i class="fa fa-angle-down"></i
+            ></a>
+            <ul class="dropdown">
+              <li>
+                <a href="steam-coil-cleaning.html">Steam Coil Creaning</a>
+              </li>
+              <li>
+                <a href="enzyme36-coil-cleaning.html"
+                  >Enzyme+36 Coil Cleaning</a
+                >
+              </li>
+              <li>
+                <a href="air-cooled-chiller-steam-cleaning.html"
+                  >Air Cooled Chiller Steam Cleaning</a
+                >
+              </li>
+              <li><a href="cmms.html">CMMS</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="call-icon">
+          <img src="images/Frame-232.png" alt="Call Icon" />
+          <a href="#" class="btn">Book A Call</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+      <div class="mobile-top-bar">
+        <div class="mobile-logo">
+          <img src="images/logo.png" alt="Logo" />
+        </div>
+        <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <nav class="mobile-nav-links" id="mobile-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Residential</a></li>
+          <li><a href="commercial.html">Commercial</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <script src="toggle.js" defer></script>
+
+    <div class="cont-header" style="background-image: url(images/air.jpg);" >
+      <h1>Duct Cleaning</h1>
+      
     </div>
-    <nav class="nav-bar">
-      <div class="logo">
-        <img src="images/logo.png" alt="Logo">
-      </div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="residential.html">Residential <i class="fa fa-angle-down"></i></a>
-         <ul class="dropdown">
-            <li><a href="indoor-air-quality.html">Indoor Air Quality</a></li>
-            <li><a href="indoor-pressure-washing.html">Indoor Pressure Washing</a></li>
-            <li><a href="air-pressure-testing.html">Air Pressure Testing</a></li>
-            <li><a href="duct-cleaning.html">Duct Cleaning</a></li>
-          </ul>
-        </li>
-        <li><a href="commercial.html">Commercial <i class="fa fa-angle-down"></i></a>
-        <ul class="dropdown">
-            <li><a href="steam-coil-cleaning.html">Steam Coil Creaning</a></li>
-            <li><a href="enzyme36-coil-cleaning.html">Enzyme+36 Coil Cleaning</a></li>
-            <li><a href="air-cooled-chiller-steam-cleaning.html">Air Cooled Chiller Steam Cleaning</a></li>
-            <li><a href="cmms.html">CMMS</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-      <div class="call-icon">
-        <img src="images/Frame-232.png" alt="Call Icon">
-        <a href="#" class="btn">Book A Call</a>
-      </div>
-    </nav>
-  </header>
-  
-  <!-- Mobile Header -->
-  <header class="mobile-header">
-    <div class="mobile-top-bar">
-      <div class="mobile-logo">
-        <img src="images/logo.png" alt="Logo">
-      </div>
-      <div class="mobile-menu-toggle" id="mobile-menu-toggle">
-        <i class="fas fa-bars"></i>
-      </div>
+
+
+    <div class="cont-banner-upper">
+      <h2>
+        Experience the Difference of Clean Air with Our <br /><span
+          class="d-color"
+          >Professional Duct Cleaning.</span
+        >
+      </h2>
+      <p>
+        Duct cleaning is an important maintenance task that can help improve
+        indoor air quality, reduce energy costs, and promote the health and
+        well-being of the building’s occupants.
+      </p>
     </div>
-    <nav class="mobile-nav-links" id="mobile-nav">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Residential</a></li>
-        <li><a href="commercial.html">Commercial</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-  <script src="toggle.js" defer></script>
 
-
-  <div class="cont-banner-upper">
-    <h2>Experience the Difference of Clean Air with Our <br><span class="d-color">Professional Duct Cleaning.</span> </h2>
-    <p>Duct cleaning is an important maintenance task that can help improve indoor air quality,
-       reduce energy costs,
-       and promote the health and well-being of the building’s occupants.</p>
-          
-
-</div>
-
-  <section class="cont-with-img-main">
-    <div class="cont-with-img">
-        <div class="cont-with-img-left">
-            <h2>What is DUCT CLEANING?</h2>
-        <p>Duct cleaning is the process of removing dust, debris, and other contaminants from 
-          the heating, ventilation, and air conditioning (HVAC) systems in a building. The HVAC 
-          duct cleaning system includes ductwork, which is the network of tubes that distribute 
-          heated or cooled air throughout the building. <br>
-          Dust, dirt, and other debris can build up in the ductwork over time, decreasing the HVAC
-           system’s effectiveness and perhaps endangering the health of the building’s inhabitants.
-            For those who have allergies or respiratory conditions, this is especially difficult.        
-        </p>
-
+    <section class="cont-with-img-main">
+      <div class="cont-with-img">
+        <div class="cont-with-img-right">
+          <h2>What is DUCT CLEANING?</h2>
+          <p>
+            Duct cleaning is the process of removing dust, debris, and other
+            contaminants from the heating, ventilation, and air conditioning
+            (HVAC) systems in a building. The HVAC duct cleaning system includes
+            ductwork, which is the network of tubes that distribute heated or
+            cooled air throughout the building. <br />
+            Dust, dirt, and other debris can build up in the ductwork over time,
+            decreasing the HVAC system’s effectiveness and perhaps endangering
+            the health of the building’s inhabitants. For those who have
+            allergies or respiratory conditions, this is especially difficult.
+          </p>
         </div>
         <div class="cont-with-img-right">
-            <img src="images/duct-cleaning01.jpg">
+          <img src="images/duct-cleaning01.jpg" />
         </div>
-    </div>
-  </section>
+      </div>
+    </section>
 
-  
+    <!-- <div class="indoor-cont-points">
+      <h2>
+        Signs That Your Air Ducts May Be Dirty And In Need Of Cleaning Include:
+      </h2>
+      <p>
+        <strong>Unpleasant Odors:</strong> If you notice a musty or stale odor
+        coming from your HVAC system, it could be a sign that mold or mildew is
+        growing inside your air ducts.
+      </p>
+      <br />
+      <p>
+        <strong>Dust Buildup:</strong> If you see a lot of dust buildup on your
+        vents or around your HVAC system, it could indicate that there is a lot
+        of dust circulating through your air ducts.
+      </p>
+      <br />
+      <p>
+        <strong>Allergies or Respiratory Issues:</strong> If you or anyone in
+        your household is experiencing allergies, asthma, or other respiratory
+        issues, it could be a sign that there are allergens, dust, or other
+        contaminants in your air ducts that need to be cleaned out.
+      </p>
+      <br />
+      <p>
+        <strong>Reduced Airflow:</strong> If you notice that your HVAC system is
+        not providing the same level of airflow as before, it could be a sign
+        that your air ducts are clogged with debris.
+      </p>
+      <br />
+      <p>
+        <strong>Increased Energy Bills:</strong> If you notice a sudden spike in
+        your energy bills, it could be due to a clogged air duct system. When
+        your air ducts are dirty, your HVAC system has to work harder to
+        circulate air, which can lead to increased energy usage.
+      </p>
+      <br />
+      <p>
+        <strong
+          >By getting your air ducts cleaned, you can improve indoor air
+          quality, reduce allergens and respiratory issues, and potentially
+          lower your energy bills.</strong
+        >
+      </p>
+    </div> -->
 
- 
 
-  <div class="indoor-cont-points">
-    <h2>Signs That Your Air Ducts May Be Dirty And In Need Of Cleaning Include:</h2>
-    <p> <Strong>Unpleasant Odors:</Strong> If you notice a musty or stale odor coming from your HVAC
-       system, it could be a sign that
-       mold or mildew is growing inside your air ducts.</p>
-         <br>
-         <p> <Strong>Dust Buildup:</Strong>  If you see a lot of dust buildup on 
-          your vents or around your HVAC system, it could indicate that there is a lot of dust
-           circulating through your air ducts.</p>
-            <br>
-            <p> <Strong>Allergies or Respiratory Issues:</Strong>   If you or anyone in 
-              your household is experiencing allergies, asthma, or other respiratory issues, it could
-               be a sign that there are allergens, dust, or other contaminants in your air ducts that 
-               need to be cleaned out.</p>
-                <br>
-                <p> <Strong>Reduced Airflow:</Strong>  If you notice
-                   that your HVAC system is not providing the same level of airflow as before, it could
-                    be a sign that your air ducts are clogged with debris.</p>
-                    <br>
-                    <p> <Strong>Increased Energy Bills:</Strong>  If you notice a 
-                      sudden spike in your energy bills, it could be due to a clogged air duct system. 
-                      When your air ducts are dirty, your HVAC system has to work harder to circulate 
-                      air, which can lead to increased energy usage.</p>
-                       <br>
-                        <p><strong>By getting your air ducts cleaned, you can improve indoor air quality, reduce allergens and respiratory issues, and potentially lower your energy bills.</strong></p>
-  </div>
+    <section class="cont-boxx-main">
+      <h2>SIGNS THAT YOUR AIR DUCTS MAY BE DIRTY <br> AND IN NEED OF CLEANING INCLUDE:</h2>
+      <div class="cont-boxx-uper">
+        <div class="cont-box">
+          <p>
+            <strong>Unpleasant Odors:</strong> If you notice a musty or stale odor
+            coming from your HVAC system, it could be a sign that mold or mildew is
+            growing inside your air ducts.
+          </p>
+        </div>
+        <div class="cont-box">
+          <p>
+            <strong>Dust Buildup:</strong> If you see a lot of dust buildup on your
+            vents or around your HVAC system, it could indicate that there is a lot
+            of dust circulating through your air ducts.
+          </p>
+        </div>
+        <div class="cont-box">
+          <p>
+            <strong>Reduced Airflow:</strong> If you notice that your HVAC system is
+            not providing the same level of airflow as before, it could be a sign
+            that your air ducts are clogged with debris.
+          </p>
+        </div>
+        <div class="cont-box">
+          <p>
+            <strong>Increased Energy Bills:</strong> If you notice a sudden spike in
+            your energy bills, it could be due to a clogged air duct system. When
+            your air ducts are dirty, your HVAC system has to work harder to
+            circulate air, which can lead to increased energy usage.
+          </p>
+        </div>
+        <div class="cont-box">
+          <p>
+            <strong
+              >By getting your air ducts cleaned, you can improve indoor air
+              quality, reduce allergens and respiratory issues, and potentially
+              lower your energy bills.</strong
+            >
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <section class="cont-banner">
-    <h2>Affordable Air Duct Cleaning Services From Steira Air Quality And Fair Pricing Guaranteed.</h2>
-    <p>The cost of air duct cleaning varies depending on the size of the building, the complexity of the HVAC
-       system, and the method used. However, Steira Air provides high-quality service at a fair price.
-        When searching for “best air duct cleaning services” or “best duct cleaning service near me”, 
-        look for Seira Air with experienced technicians, modern equipment, and a track record of success.</p>
-  
+    <section class="cont-banner">
+      <h2>
+        Affordable Air Duct Cleaning Services From Steira Air Quality And Fair
+        Pricing Guaranteed.
+      </h2>
+      <p>
+        The cost of air duct cleaning varies depending on the size of the
+        building, the complexity of the HVAC system, and the method used.
+        However, Steira Air provides high-quality service at a fair price. When
+        searching for “best air duct cleaning services” or “best duct cleaning
+        service near me”, look for Seira Air with experienced technicians,
+        modern equipment, and a track record of success.
+      </p>
 
-         <!-- <a href="#" class="btn-square">Contact Us</a>
+      <!-- <a href="#" class="btn-square">Contact Us</a>
 
          <h2>Steira Air: Your Healthy Environment Specialist</h2> -->
+    </section>
 
-  </section>
+    <footer class="footer">
+      <div class="footer-container">
 
-
- 
-
-
-
-  <footer class="footer">
-    <div class="footer-container">
-      <!-- Section 1: Contact -->
-      <div class="footer-column">
-        <div class="logo">
-          <img src="images/logo.png" alt="">
+        <div class="footer-column">
+           <div class="f-logo">
+            <img src="images/logo-footer.png" alt="" />
+          </div>
         </div>
-        <h3>About us </h3>
-        <p>Steira Air is a specialized HVAC company specializing in Indoor Air Quality. Steira Air is owned and operated by a 20+ year Test & Balance Expert. Our mission is to create Healthy Indoor Environments through our specialized and unique lines of service.</p>
-        
-      </div>
-      <!-- Section 2: About Us -->
-      <div class="footer-column">
-        <h3>Quick Us</h3>
-        <ul>
-          <li><a href="#">Who Are We?</a></li>
-          <li><a href="#">Mission, Vision, Principles</a></li>
-          <li><a href="#">History</a></li>
-          <li><a href="#">Board of Directors</a></li>
-          <li><a href="#">Resource Usage</a></li>
-          <li><a href="#">Reports</a></li>
-          <li><a href="#">Bank Account Information</a></li>
-          <li><a href="#">Communication</a></li>
+        <!-- Section 1: Contact -->
+        <div class="footer-column">
+          <!-- <div class="logo">
+            <img src="images/logo.png" alt="" />
+          </div> -->
+          <h3>About us</h3>
+          <p>
+            Steira Air is a specialized HVAC company specializing in Indoor Air
+            Quality. Steira Air is owned and operated by a 20+ year Test &
+            Balance Expert. Our mission is to create Healthy Indoor Environments
+            through our specialized and unique lines of service.
+          </p>
+        </div>
+        <!-- Section 2: About Us -->
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Who Are We?</a></li>
+            <li><a href="#">Mission, Vision, Principles</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Board of Directors</a></li>
+            <li><a href="#">Resource Usage</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Bank Account Information</a></li>
+            <li><a href="#">Communication</a></li>
+          </ul>
+        </div>
+        <!-- Section 3: Projects -->
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <!-- <p>2330 Scenic Hwy. Suite 175 Snellville, GA 30078</p>
+          <p>Email: info@steiraair.com</p>
+          <p>866-384-1972</p>-->
+
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i>182, High Road, Willesden,<br> London, United Kingdom, NW10 2PB</li>
+            <li><a href="mailto:info@accounts.co"><i class="fa-solid fa-envelope"></i>info@accountsbook.co</a></li>
+            <li><a href="tel:(315) 907-4273"><i class="fa-solid fa-phone"></i>(315) 907-4273</a></li>
+          
         </ul>
-      </div>
-      <!-- Section 3: Projects -->
-      <div class="footer-column">
-        <h3>Contact Us</h3>
-        <p>Email: globalmedination@gmail.com</p>
-        <p>+90 212 558 12 12<br>+90 212 558 64 12</p>
-        <div class="social-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-pinterest"></i></a>
-        </div>
-        <!-- <ul>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+          <!-- <ul>
           <li><a href="#">Long live mothers, long live children</a></li>
           <li><a href="#">Right of Eye</a></li>
           <li><a href="#">The Earth is Full of Pain. Hungry for Your Goodness!</a></li>
@@ -202,11 +318,13 @@
           <li><a href="#">Gaza Crisis</a></li>
           <li><a href="#">Other Crisis Emergencies</a></li>
         </ul> -->
+        </div>
       </div>
-    </div>
-    
-  </footer>
 
-
-</body>
+      <div class="footer-copyright">
+        <p>© Copyright  <a href="https://steiraair.com">Steira Air</a> , LLC 2023. All rights reserved .Designed & Developed By  <a href="https://brandbooster.us">Brand Boosters Limited</a>
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

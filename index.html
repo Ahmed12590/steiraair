@@ -1,373 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Steira Air | Air Duct Cleaning Services | HVAC Solutions</title>
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="media.css">
-  <link rel="stylesheet" href="toggle.js">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-</head>
-<body>
-  <header class="header">
-    <div class="top-bar">
-      <div class="social-icon">
-        <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
-        <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
-        <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
-      </div>
-      <p class="center-text">"Your Healthy Environment Specialist"</p>
-    </div>
-    <nav class="nav-bar">
-      <div class="logo">
-        <img src="images/logo.png" alt="Logo">
-      </div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="residential.html">Residential <i class="fa fa-angle-down"></i></a>
-         <ul class="dropdown">
-            <li><a href="indoor-air-quality.html">Indoor Air Quality</a></li>
-            <li><a href="indoor-pressure-washing.html">Indoor Pressure Washing</a></li>
-            <li><a href="air-pressure-testing.html">Air Pressure Testing</a></li>
-            <li><a href="duct-cleaning.html">Duct Cleaning</a></li>
-          </ul>
-        </li>
-        <li><a href="commercial.html">Commercial <i class="fa fa-angle-down"></i></a>
-        <ul class="dropdown">
-            <li><a href="steam-coil-cleaning.html">Steam Coil Creaning</a></li>
-            <li><a href="enzyme36-coil-cleaning.html">Enzyme+36 Coil Cleaning</a></li>
-            <li><a href="air-cooled-chiller-steam-cleaning.html">Air Cooled Chiller Steam Cleaning</a></li>
-            <li><a href="cmms.html">CMMS</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-      <div class="call-icon">
-        <img src="images/Frame-232.png" alt="Call Icon">
-        <a href="#" class="btn">Book A Call</a>
-      </div>
-    </nav>
-  </header>
-  
-  <!-- Mobile Header -->
-  <header class="mobile-header">
-    <div class="mobile-top-bar">
-      <div class="mobile-logo">
-        <img src="images/logo.png" alt="Logo">
-      </div>
-      <div class="mobile-menu-toggle" id="mobile-menu-toggle">
-        <i class="fas fa-bars"></i>
-      </div>
-    </div>
-    <nav class="mobile-nav-links" id="mobile-nav">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Residential</a></li>
-        <li><a href="commercial.html">Commercial</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-  <script src="toggle.js" defer></script>
-
-
-
-  
-
-  <section class="services-section">
-    <div class="service-card">
-      <a href="#residential-services">
-        <img src="images/Group-260.png" alt="Residential Services">
-        <div class="overlay">
-          <span>Residential Services</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steira Air | Air Duct Cleaning Services | HVAC Solutions</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="toggle.js" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-bar">
+        <div class="social-icon">
+          <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
         </div>
-      </a>
-    </div>
-    <div class="service-card">
-      <a href="#commercial-services">
-        <img src="images/Group-269.png" alt="Commercial Services">
-        <div class="overlay">
-          <span>Commercial Services</span>
+        <p class="center-text">"Your Healthy Environment Specialist"</p>
+      </div>
+      <nav class="nav-bar">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo" />
         </div>
-      </a>
-    </div>
-  </section>
-  
-  <section class="book-consult">
-    <h2>Book A <span class="d-color"> Consultation with Charles:</span></h2>
-    <form class="frm">
-        <input type="text" placeholder="Name">
-        <input type="tel" placeholder="Phone">
-        <input type="email" name="email" placeholder="Email">
-        <input type="text" placeholder="How can i help you?">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="residential.html"
+              >Residential <i class="fa fa-angle-down"></i
+            ></a>
+            <ul class="dropdown">
+              <li><a href="indoor-air-quality.html">Indoor Air Quality</a></li>
+              <li>
+                <a href="indoor-pressure-washing.html"
+                  >Indoor Pressure Washing</a
+                >
+              </li>
+              <li>
+                <a href="air-pressure-testing.html">Air Pressure Testing</a>
+              </li>
+              <li><a href="duct-cleaning.html">Duct Cleaning</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="commercial.html"
+              >Commercial <i class="fa fa-angle-down"></i
+            ></a>
+            <ul class="dropdown">
+              <li>
+                <a href="steam-coil-cleaning.html">Steam Coil Creaning</a>
+              </li>
+              <li>
+                <a href="enzyme36-coil-cleaning.html"
+                  >Enzyme+36 Coil Cleaning</a
+                >
+              </li>
+              <li>
+                <a href="air-cooled-chiller-steam-cleaning.html"
+                  >Air Cooled Chiller Steam Cleaning</a
+                >
+              </li>
+              <li><a href="cmms.html">CMMS</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="call-icon">
+          <img src="images/Frame-232.png" alt="Call Icon" />
+          <a href="#" class="btn">Book A Call</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+      <div class="mobile-top-bar">
+        <div class="mobile-logo">
+          <img src="images/logo.png" alt="Logo" />
+        </div>
+        <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <nav class="mobile-nav-links" id="mobile-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="residential.html">Residential</a></li>
+          <li><a href="commercial.html">Commercial</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <script src="toggle.js" defer></script>
+
+    <section class="services-section">
+      <div class="service-card">
+        <a href="#residential-services">
+          <img src="images/Group-260.png" alt="Residential Services" />
+          <div class="overlay">
+            <span>Residential Services</span>
+          </div>
+        </a>
+      </div>
+      <div class="service-card">
+        <a href="#commercial-services">
+          <img src="images/Group-269.png" alt="Commercial Services" />
+          <div class="overlay">
+            <span>Commercial Services</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="book-consult">
+      <h2>Book A <span class="d-color"> Consultation with Charles:</span></h2>
+      <form class="frm">
+        <input type="text" placeholder="Name" />
+        <input type="tel" placeholder="Phone" />
+        <input type="email" name="email" placeholder="Email" />
+        <input type="text" placeholder="How can i help you?" />
         <!-- <button type="submit" class="btn-square">Submit</button> -->
-         <a href="#" class="btn-square">Submit</a>
-    </form>
-  </section>
+        <a href="#" class="btn-square">Submit</a>
+      </form>
+    </section>
 
-
-
-  <section class="about-section">
-    <div class="container">
-      <div class="about-content">
-        <h2>About Steira Air</h2>
-        <p>
-          Steira Air is a specialized HVAC company specializing in Indoor Air Quality. Steira Air is owned and operated by <strong>Charles Raglin</strong>, a 20+ year Test & Balance Expert. 
-        </p>
-        <p>
-          Our mission is to create Healthy Indoor Environments through our specialized and unique lines of service. We pride ourselves on our ability to stay ahead of the HVAC industry, producing phenomenal HVAC and Healthy Environment solutions.
-        </p>
-        <p>
-          Our extensive specialized experience in the HVAC industry and cutting-edge proprietary solutions makes us the go-to over any other company. We are driven by the excitement of proving our process, not by the profits to be made. We are always honored to lend our expertise to help you maintain a healthy environment.
-        </p>
+    <section class="about-section">
+      <div class="container">
+        <div class="about-content">
+          <h2>About Steira Air</h2>
+          <p>
+            Steira Air is a specialized HVAC company specializing in Indoor Air
+            Quality. Steira Air is owned and operated by
+            <strong>Charles Raglin</strong>, a 20+ year Test & Balance Expert.
+          </p>
+          <p>
+            Our mission is to create Healthy Indoor Environments through our
+            specialized and unique lines of service. We pride ourselves on our
+            ability to stay ahead of the HVAC industry, producing phenomenal
+            HVAC and Healthy Environment solutions.
+          </p>
+          <p>
+            Our extensive specialized experience in the HVAC industry and
+            cutting-edge proprietary solutions makes us the go-to over any other
+            company. We are driven by the excitement of proving our process, not
+            by the profits to be made. We are always honored to lend our
+            expertise to help you maintain a healthy environment.
+          </p>
+        </div>
+        <div class="about-image">
+          <div class="image-wrapper">
+            <img src="images/aboutus.png" alt="Owner Picture" />
+          </div>
+        </div>
       </div>
-      <div class="about-image">
-        <div class="image-wrapper">
-          <img src="images/aboutus.png" alt="Owner Picture" />
+    </section>
+
+    <div class="home-services-container">
+      <div class="home-services-wrapper">
+        <div class="home-services-card">
+          <h3>Residential Services</h3>
+          <ul>
+            <li>Indoor Air Quality Monitoring</li>
+            <li>Air Pressure Testing</li>
+            <li>CAM System</li>
+            <li>Duct Cleaning</li>
+            <li>Indoor Pressure Washing</li>
+          </ul>
+        </div>
+        <div class="home-services-card">
+          <h3>Commercial Services</h3>
+          <ul>
+            <li>Steam Coil Cleaning</li>
+            <li>Enzyme-36 Coil Cleaning</li>
+            <li>Air-Cooled Chiller Steam Cleaning</li>
+            <li>CMMS</li>
+            <li>Indoor Air Quality Monitoring</li>
+            <li>Pressure Washing</li>
+          </ul>
         </div>
       </div>
     </div>
-  </section>
-  
 
-
-
-  
-  <div class="home-services-container">
-    <div class="home-services-wrapper">
-        <div class="home-services-card">
-            <h3>Residential Services</h3>
-            <ul>
-                <li>Indoor Air Quality Monitoring</li>
-                <li>Air Pressure Testing</li>
-                <li>CAM System</li>
-                <li>Duct Cleaning</li>
-                <li>Indoor Pressure Washing</li>
-            </ul>
+    <section class="y-choose-steira">
+      <h2>Why Choose Steira Air?</h2>
+      <div class="reason">
+        <div class="reason-box">
+          <img src="images/001.png" alt="" />&nbsp;
+          <p>30+ Years of Experience</p>
         </div>
-        <div class="home-services-card">
-            <h3>Commercial Services</h3>
-            <ul>
-                <li>Steam Coil Cleaning</li>
-                <li>Enzyme-36 Coil Cleaning</li>
-                <li>Air-Cooled Chiller Steam Cleaning</li>
-                <li>CMMS</li>
-                <li>Indoor Air Quality Monitoring</li>
-                <li>Pressure Washing</li>
-            </ul>
+        <div class="reason-box">
+          <img src="images/002.png" alt="" />&nbsp;
+          <p>Test & Balance Specialist</p>
         </div>
-    </div>
-</div>
-
-
-<section class="y-choose-steira">
-  <h2>Why Choose Steira Air?</h2>
-  <div class="reason">
-      <div class="reason-box">
-         <img src="images/001.png" alt="">&nbsp;<p>30+ Years of Experience</p>
+        <div class="reason-box">
+          <img src="images/003.png" alt="" />&nbsp;
+          <p>Veteran-Owned Business</p>
+        </div>
       </div>
-      <div class="reason-box">
-          <img src="images/002.png" alt="">&nbsp;<p>Test & Balance Specialist</p>
-      </div>
-      <div class="reason-box">
-          <img src="images/003.png" alt="">&nbsp;<p> Veteran-Owned Business</p>
-      </div>
-  </div>
-</section>
+    </section>
 
-
-
-
-<section class="faqs">
-  <div class="faq-accordion">
-      <h1>Frequently Ask <Span class="d-color">Questions</Span></h1>
-      <div class="accordion" id="accordionExample">
+    <section class="faqs">
+      <div class="faq-accordion">
+        <h1>Frequently Ask <span class="d-color">Questions</span></h1>
+        <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  01 What is steam coil cleaning, and why is it necessary for commercial buildings?
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                01 What is steam coil cleaning, and why is it necessary for
+                commercial buildings?
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
               <div class="accordion-body">
-                  Steam coil cleaning involves removing dirt, debris, and scale from the coils in your HVAC system.
-                   It is crucial for maintaining efficient heating and cooling, reducing energy consumption, and extending the lifespan of your HVAC equipment.
+                Steam coil cleaning involves removing dirt, debris, and scale
+                from the coils in your HVAC system. It is crucial for
+                maintaining efficient heating and cooling, reducing energy
+                consumption, and extending the lifespan of your HVAC equipment.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  02 How does CMMS (Computerized Maintenance Management System) improve building maintenance?
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                02 How does CMMS (Computerized Maintenance Management System)
+                improve building maintenance?
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
               <div class="accordion-body">
-                  CMMS helps streamline maintenance operations by scheduling and tracking maintenance tasks, managing inventory, and
-                   generating reports. It ensures timely upkeep of equipment, reduces downtime, and enhances overall building management efficiency.
+                CMMS helps streamline maintenance operations by scheduling and
+                tracking maintenance tasks, managing inventory, and generating
+                reports. It ensures timely upkeep of equipment, reduces
+                downtime, and enhances overall building management efficiency.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  03 What is Enzyme+36, and how does it work?
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                03 What is Enzyme+36, and how does it work?
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
               <div class="accordion-body">
-                  Enzyme+36 is a powerful enzyme-based cleaner designed for commercial HVAC systems. 
-                  It breaks down organic matter and prevents the buildup of biofilms and mold, ensuring cleaner and 
-                  more efficient HVAC operations.
+                Enzyme+36 is a powerful enzyme-based cleaner designed for
+                commercial HVAC systems. It breaks down organic matter and
+                prevents the buildup of biofilms and mold, ensuring cleaner and
+                more efficient HVAC operations.
               </div>
             </div>
           </div>
           <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  04 How often should air-cooled chillers be serviced in a commercial setting?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Air-cooled chillers should be serviced at least twice a year to ensure optimal performance. 
-                  Regular maintenance helps prevent breakdowns,
-                   increases efficiency, and extends the lifespan of the equipment.
-                </div>
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                04 How often should air-cooled chillers be serviced in a
+                commercial setting?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Air-cooled chillers should be serviced at least twice a year to
+                ensure optimal performance. Regular maintenance helps prevent
+                breakdowns, increases efficiency, and extends the lifespan of
+                the equipment.
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  05 What are the benefits of steam coil cleaning for my business?
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Steam coil cleaning improves the efficiency of your HVAC system,
-                   reduces energy costs, and enhances indoor air quality. It also helps prevent equipment failures, 
-                   ensuring a
-                   comfortable and productive environment for your employees and customers.
-                </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                05 What are the benefits of steam coil cleaning for my business?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Steam coil cleaning improves the efficiency of your HVAC system,
+                reduces energy costs, and enhances indoor air quality. It also
+                helps prevent equipment failures, ensuring a comfortable and
+                productive environment for your employees and customers.
               </div>
             </div>
+          </div>
         </div>
-  </div>
-  <div class="faq-gotcall">
-      <div class="gotcall-logo">
-          <img src="images/favicon.png">
-          <p>Got Questions? We’ve the answers! We’re online and ready to help.</p>
+      </div>
+      <div class="faq-gotcall">
+        <div class="gotcall-logo">
+          <img src="images/favicon.png" />
+          <p>
+            Got Questions? We’ve the answers! We’re online and ready to help.
+          </p>
           <a href="#" class="btn-square">Call Now</a>
-      </div>
-      <img src="images/img06.png">
-  </div>
-</section>
-
-
-<section class="service-area">
-  <h3>SERVICES AREAS</h3>
-  <p>We have physical offices located in Georgia, Kentucky and Texas</p>
-
-  <div class="service-area-main">
-      <div class="service-area-box">
-          <img src="images/us-img.png">
         </div>
-        
+        <img src="images/img06.png" />
+      </div>
+    </section>
+
+    <section class="service-area">
+      <h3>SERVICES AREAS</h3>
+      <p>We have physical offices located in Georgia, Kentucky and Texas</p>
+
+      <div class="service-area-main">
         <div class="service-area-box">
-            <div class="service-d-areas">
-                <h4>Georgia</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Kentucky</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Texas</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Lousiana</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Missouri</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Alabama</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Ohio</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Florida</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Indiana</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Tennessee</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Virginia</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Oklahoma</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Kansas</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Mississippi</h4>
-            </div>
-            <div class="service-d-areas">
-                <h4>Wisconsin</h4>
-            </div>
-            
+          <img src="images/us-img.png" />
         </div>
-    </div>
-</section>
 
+        <div class="service-area-box-right">
+          <div class="service-d-areas">
+            <h4>Georgia</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Kentucky</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Texas</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Lousiana</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Missouri</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Alabama</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Ohio</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Florida</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Indiana</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Tennessee</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Virginia</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Oklahoma</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Kansas</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Mississippi</h4>
+          </div>
+          <div class="service-d-areas">
+            <h4>Wisconsin</h4>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <footer class="footer">
-    <div class="footer-container">
-      <!-- Section 1: Contact -->
-      <div class="footer-column">
-        <div class="logo">
-          <img src="images/logo.png" alt="">
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <div class="f-logo">
+            <img src="images/logo-footer.png" alt="" />
+          </div>
         </div>
-        <h3>About us </h3>
-        <p>Steira Air is a specialized HVAC company specializing in Indoor Air Quality. Steira Air is owned and operated by a 20+ year Test & Balance Expert. Our mission is to create Healthy Indoor Environments through our specialized and unique lines of service.</p>
-        
-      </div>
-      <!-- Section 2: About Us -->
-      <div class="footer-column">
-        <h3>Quick Us</h3>
-        <ul>
-          <li><a href="#">Who Are We?</a></li>
-          <li><a href="#">Mission, Vision, Principles</a></li>
-          <li><a href="#">History</a></li>
-          <li><a href="#">Board of Directors</a></li>
-          <li><a href="#">Resource Usage</a></li>
-          <li><a href="#">Reports</a></li>
-          <li><a href="#">Bank Account Information</a></li>
-          <li><a href="#">Communication</a></li>
-        </ul>
-      </div>
-      <!-- Section 3: Projects -->
-      <div class="footer-column">
-        <h3>Contact Us</h3>
-        <p>Email: globalmedination@gmail.com</p>
-        <p>+90 212 558 12 12<br>+90 212 558 64 12</p>
-        <div class="social-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-pinterest"></i></a>
+        <!-- Section 1: Contact -->
+        <div class="footer-column">
+          <!-- <div class="logo">
+            <img src="images/logo.png" alt="" />
+          </div> -->
+          <h3>About us</h3>
+          <p>
+            Steira Air is a specialized HVAC company specializing in Indoor Air
+            Quality. Steira Air is owned and operated by a 20+ year Test &
+            Balance Expert. Our mission is to create Healthy Indoor Environments
+            through our specialized and unique lines of service.
+          </p>
         </div>
-        <!-- <ul>
+        <!-- Section 2: About Us -->
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Who Are We?</a></li>
+            <li><a href="#">Mission, Vision, Principles</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Board of Directors</a></li>
+            <li><a href="#">Resource Usage</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Bank Account Information</a></li>
+            <li><a href="#">Communication</a></li>
+          </ul>
+        </div>
+        <!-- Section 3: Projects -->
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <!-- <p>2330 Scenic Hwy. Suite 175 Snellville, GA 30078</p>
+          <p>Email: info@steiraair.com</p>
+          <p>866-384-1972</p>-->
+
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>182, High Road,
+              Willesden,<br />
+              London, United Kingdom, NW10 2PB
+            </li>
+            <li>
+              <a href="mailto:info@accounts.co"
+                ><i class="fa-solid fa-envelope"></i>info@accountsbook.co</a
+              >
+            </li>
+            <li>
+              <a href="tel:(315) 907-4273"
+                ><i class="fa-solid fa-phone"></i>(315) 907-4273</a
+              >
+            </li>
+          </ul>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+          <!-- <ul>
           <li><a href="#">Long live mothers, long live children</a></li>
           <li><a href="#">Right of Eye</a></li>
           <li><a href="#">The Earth is Full of Pain. Hungry for Your Goodness!</a></li>
@@ -377,11 +508,22 @@
           <li><a href="#">Gaza Crisis</a></li>
           <li><a href="#">Other Crisis Emergencies</a></li>
         </ul> -->
+        </div>
       </div>
-    </div>
-    
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+      <div class="footer-copyright">
+        <p>
+          © Copyright <a href="https://steiraair.com">Steira Air</a> , LLC 2023.
+          All rights reserved .Designed & Developed By
+          <a href="https://brandbooster.us">Brand Boosters Limited</a>
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
